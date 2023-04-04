@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./Header";
 import Code from "./Code";
-
+import Result from "./Result";
 
 
 export default function Home() {
@@ -9,6 +9,7 @@ export default function Home() {
     <>
       <Header />
       <Code />
+      <Result />
     </>
   );
 }
